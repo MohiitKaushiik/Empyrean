@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import useStyles from "./styles";
 
 import { Actors, Movies, MovieInformation, Profile, NavBar } from "./";
+import Practice from "./Practice";
 
 const App = () => {
   const classes = useStyles();
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/movie/:id" element={<MovieInformation />} />
           <Route path="/actors/:id" element={<Actors />} />
           <Route path="/profile/:id" element={<Profile />} />
+          <Route path="/practice/" element={<Practice />} />
         </Routes>
       </main>
     </div>
