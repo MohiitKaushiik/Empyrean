@@ -44,7 +44,7 @@ const NavBar = () => {
           <IconButton color="inherit" sx={{ ml: 1 }} onClick={() => {}}>
             {theme.palette.mode === "dark" ? <Brightness7 /> : <Brightness4 />}
           </IconButton>
-          {!isMobile && "Test"}
+          {!isMobile && "Search...."}
           <div>
             {!isAuthenticated ? (
               <Button color="inherit" onClick={() => {}}>
